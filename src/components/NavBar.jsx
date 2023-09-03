@@ -16,7 +16,7 @@ const NavBar = () => {
         }`}
       >
         <span className="cursor-pointer">
-          <a href="/Homepage/ProfileDetail">Profile</a>
+          <a href="/HomePage/ProfileDetail">Profile</a>
         </span>
         {pathname.includes("ProfileDetail") && <ActiveTab />}
       </li>
@@ -29,7 +29,7 @@ const NavBar = () => {
         }`}
       >
         <span className="cursor-pointer">
-          <a href="/Homepage/Posts">Posts</a>
+          <a href="/HomePage/Posts">Posts</a>
         </span>
         {pathname.includes("Posts") && <ActiveTab />}
       </li>
@@ -43,7 +43,7 @@ const NavBar = () => {
       >
         <span className="cursor-pointer">
           {" "}
-          <a href="/Homepage/Gallery">Gallery</a>
+          <a href="/HomePage/Gallery">Gallery</a>
         </span>
         {pathname.includes("Gallery") && <ActiveTab />}
       </li>
@@ -56,7 +56,7 @@ const NavBar = () => {
         }`}
       >
         <span className="cursor-pointer">
-          <a href="/Homepage/ToDos">ToDo</a>
+          <a href="/HomePage/ToDos">ToDo</a>
         </span>
         {pathname.includes("ToDos") && <ActiveTab />}
       </li>
