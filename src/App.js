@@ -6,11 +6,12 @@ function App() {
   return (
     <div>
       <Routes>
+        {/* List of all the paths */}
         <Route exact path="/" Component={LandingPage} />
-        <Route exact path="//HomePage/ProfileDetail" Component={HomePage} />
-        <Route exact path="//HomePage/Posts" Component={HomePage} />
-        <Route exact path="//HomePage/Gallery" Component={HomePage} />
-        <Route exact path="//HomePage/ToDos" Component={HomePage} />
+        <Route exact path="/HomePage/ProfileDetail" Component={HomePage} />
+        <Route exact path="/HomePage/Posts" Component={HomePage} />
+        <Route exact path="/HomePage/Gallery" Component={HomePage} />
+        <Route exact path="/HomePage/ToDos" Component={HomePage} />
       </Routes>
     </div>
   );

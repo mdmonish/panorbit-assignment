@@ -1,6 +1,6 @@
 import React from "react";
 
-const TabButton = () => {
+const ActiveTab = () => {
   return (
     <div className="bg-[#3C58C9] absolute top-2 right-[-40px]">
       <div className="bg-white">
@@ -15,4 +15,4 @@ const TabButton = () => {
   );
 };
 
-export default TabButton;
+export default ActiveTab;
